@@ -1,0 +1,18 @@
+@font-face {
+    font-family: irancell;
+    src: url(../fonts/Irancell_Medium.ttf);
+}
+
+
+body{
+    font-family: irancell;
+}
+a{
+    color: unset;
+    text-decoration: unset;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 166, 166);
+}

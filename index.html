@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>tablou</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <header>
+      <div class="d-none d-lg-block">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class=" " style="width: 100%; ">
+                <a class="navbar-brand my-2" href="#"><img src="img/logo.png" width="100px" height="50px" alt=""></a>
+                <div class="w-100"><hr></div>
+                
+                <ul class="list-unstyled d-flex justify-content-around align-items-end " style="width: 35%;">
+                    <li><a href="">خانه</a> </li>
+                    <li> <a href="">نقاشی</a></li>
+                    <li><a href="">عکاسی</a> </li>
+                    <li><a href="">گرافیکی</a></li>
+                    <li><a href="">تماس
+                        با
+                        ما</a>    </li>
+                </ul>
+               
+                </div>
+          </nav>
+        </div>
+    </header>
+
+    <!-- sm -->
+    <header>
+      <div class="d-block d-lg-none">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " aria-current="page" href="#">خانه</a>
+              <a class="nav-link" href="#">نقاشی</a>
+              <a class="nav-link" href="#">عکاسی</a>
+              <a class="nav-link" href="#">گرافیکی</a>
+              <a class="nav-link" href="#">تماس با ما</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </header>
+
+
+
+
+
+
+        <!-- swiper navbae  -->
+
+    <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden my-2" style="width: 100%; height: 550px;">
+        <div class="swiper-wrapper" id="swiper-wrapper-323c78ed6b0d66a0" aria-live="polite">
+          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9" style="width: 100%;"><img src="img/slider1.jpg" alt=""></div>
+          <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9" style="width: 100%;"><img src="img/slider2.jpg" alt=""></div>
+          <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 100%;"><img src="img/slider3.jpg" alt=""></div>
+          <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 100%;"><img src="img/slider4.jpg" alt=""></div>
+          <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 100%;"><img src="img/slider5.jpg" alt=""></div>
+          
+        </div>
+        <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+
+
+
+      <!-- payin slider card ha -->
+
+
+      <div class="container bg-light ">
+          <div class="row d-flex justify-content-around my-2 ">
+
+            <div class="col-lg-5 col-sm-12 bg-white my-2" style=" height: 450px; position: relative;" >
+                <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%;" >
+                    <img src="img/card1.jpg" width="90%" height="100%" alt="">
+                    <div class="row d-flex w-100 justify-content-between " style="position: absolute; bottom: 20px;">
+                        <div class="col-4 justify-content-end " >
+                           <p> تابلو های نقاشی</p>
+                        </div>
+                        <div class="col-3 justify-content-end">
+                          <button class="btn btn-outline-dark"> مشاهده </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 bg-white my-2" style=" height: 450px; position: relative;" >
+              <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%;" >
+                  <img src="img/card2.jpg" width="90%" height="100%" alt="">
+                  <div class="row d-flex w-100 justify-content-between " style="position: absolute; bottom: 20px;">
+                      <div class="col-4 justify-content-end " >
+                         <p> تابلو های عکاسی</p>
+                      </div>
+                      <div class="col-3 justify-content-end">
+                        <button class="btn btn-outline-dark"> مشاهده </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 bg-white my-2" style=" height: 450px; position: relative;" >
+            <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%;" >
+                <img src="img/card3.jpg" width="90%" height="100%" alt="">
+                <div class="row d-flex w-100 justify-content-between " style="position: absolute; bottom: 20px;">
+                    <div class="col-4 justify-content-end " >
+                       <p> تابلو های عکاسی</p>
+                    </div>
+                    <div class="col-3 justify-content-end">
+                      <button class="btn btn-outline-dark"> مشاهده </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-sm-12 bg-white my-2" style=" height: 450px; position: relative;" >
+          <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%;" >
+              <img src="img/card4.jpg" width="90%" height="100%" alt="">
+              <div class="row d-flex w-100 justify-content-between " style="position: absolute; bottom: 20px;">
+                  <div class="col-4 justify-content-end " >
+                     <p> تابلو های عکاسی</p>
+                  </div>
+                  <div class="col-3 justify-content-end">
+                    <button class="btn btn-outline-dark"> مشاهده </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      
+          </div>
+
+
+
+      </div>
+
+
+      <!-- pishnahad vijhe -->
+
+      <div class="container bg-light">
+        <div class="w-100 d-flex  align-items-start justify-content-center flex-column  " style="height: 70px;">
+          <h4>         پیشنهاد ویژه</h4>
+        </div>
+      </div>
+
+
+
+      <!-- pishnahad vijhe  card ha -->
+
+
+
+      <div class="container bg-light">
+        <div class="row d-flex justify-content-around my-2">
+            <div class="col-lg-7 col-sm-12 bg-white my-2" style=" height: 450px; " >
+              <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%; position: relative;" >
+              
+                <img src="img/pish1.jpg" width="90%" height="100%"   alt="">
+              
+                <div class="d-flex align-items-center flex-column " style="position: absolute; top: 45%; color: aliceblue;">
+                 <h3> شاهکار ونگوگ </h3>
+                 <button class="btn btn-outline-light"> مشاهده </button>
+                </div>
+              </div>
+            </div>
+
+           <div class="col-lg-5 col-sm-12 bg-white my-2" style=" height: 450px; position: relative;" >
+              <div class="w-100 d-flex  align-items-center flex-column justify-content-between my-3 " style="height: 80%;" >
+                    <img src="img/pish2.jpg" width="90%" height="100%" alt="">
+                  <div class=" d-flex align-items-center flex-column" style="position: absolute; top: 45%; color: aliceblue; ">
+                 
+                    <h3> شاهکار ونگوگ </h3>
+                 
+                  
+                    <button class="btn btn-outline-light"> مشاهده </button>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+          
+          <div class="row w-100 d-flex justify-content-around  " >
+            
+            <div class="col-lg-4 col-sm-12 my-2 " style="position: relative;">
+              <div class="d-flex  align-items-center flex-column justify-content-between">
+                <img src="img/pish3.jpg" width="100%" alt="">
+                <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+                  <h3>تابلو آرامش</h3>
+                  <button class="btn btn-outline-light"> مشاهده </button>
+                </div>
+              </div>  
+            </div>
+
+
+            <div class="col-lg-4 col-sm-12 my-2 " style="position: relative;">
+              <div class="d-flex  align-items-center flex-column justify-content-between">
+                <img src="img/pish4.jpg" width="100%" alt="">
+                <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+                  <h3>تابلو آرامش</h3>
+                  <button class="btn btn-outline-light"> مشاهده </button>
+                </div>
+              </div>  
+            </div>
+
+
+
+            <div class="col-lg-4 col-sm-12 my-2 " style="position: relative;">
+              <div class="d-flex  align-items-center flex-column justify-content-between">
+                <img src="img/pish5.jpg" width="100%" alt="">
+                <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+                  <h3>تابلو آرامش</h3>
+                  <button class="btn btn-outline-light"> مشاهده </button>
+                </div>
+              </div>  
+            </div>
+
+
+
+          
+          </div>
+  
+
+
+
+
+
+
+      </div>
+
+
+        
+      </div>
+
+
+
+      <!-- por forosh ha -->
+
+
+      <div class="container bg-light d-flex align-items-start flex-column justify-content-center " style="height: 50px;">
+       
+          <h4>  پر فروش ها</h4>
+        
+      </div>
+
+
+
+
+      <!-- por forosh ha card ha -->
+
+      <div class="container bg-light">
+        <div class="row d-flex justify-content-around my-2 w-100">
+          <div class="col-lg-2 col-sm-3 bg-white d-flex justify-content-center align-items-center flex-column">
+            <img src="img/por1.jpg" alt="">
+            <h6>خلوتگاه</h6>
+            <span style="color: gray;" > کافه تنهایی</span>
+          </div>
+          <div class="col-lg-2 col-sm-3 d-flex justify-content-center align-items-center flex-column">
+            <img src="img/por2.jpg" alt="">
+            <h6>سایه دوست</h6>
+            <span style="color: gray;" > کافه تنهایی</span>
+          </div>
+          <div class="col-lg-2 col-sm-3 d-flex justify-content-center align-items-center flex-column">
+            <img src="img/por3.jpg" alt="">
+            <h6>شب پر ستاره</h6>
+            <span style="color: gray;" > کافه تنهایی</span>
+          </div>
+          <div class="col-lg-2 col-sm-3 d-flex justify-content-center align-items-center flex-column">
+            <img src="img/por4.jpg" alt="">
+            <h6>پاتوق آبی</h6>
+            <span style="color: gray;" > کافه تنهایی</span>
+          </div>
+          <div class="col-lg-2 col-sm-3 d-flex justify-content-center align-items-center flex-column">
+            <img src="img/por5.jpg" alt="">
+            <h6>نیایش</h6>
+            <span style="color: gray;" > کافه تنهایی</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- galary haye bargozide -->
+
+      <div class="container bg-light d-flex align-items-start flex-column justify-content-center my-2 " style="height: 50px;">
+       
+        <h4>   گالری های برگزیده</h4>
+      
+      </div>
+
+
+
+
+
+
+       <!-- galary haye bargozide card ha -->
+
+
+
+      <div class="container bg-light">
+        <div class="row d-flex justify-content-around my-2 w-100">
+          <div class="col-lg-3  d-flex justify-content-center align-items-lg-start align-items-sm-center flex-column">
+            <img src="img/gal1.jpg" class="my-2" alt="">
+            <h6> اثر ونگوگ</h6>
+            <span style="color: gray;" >تاثیرگزار ترین  طرح ها</span>
+            <a href="" style="color: cornflowerblue;  margin-top: 10px;"> همه مجموعه ها را ببینیم </a>
+          </div>
+
+          <div class="col-lg-3  d-flex justify-content-center align-items-lg-start align-items-sm-center flex-column">
+            <img src="img/gal2.jpg" class="my-2" alt="">
+            <h6>تابلو نقاشی</h6>
+            <span style="color: gray;" > ترکیب رنگ ها در قالب</span>
+            <a href=""  style="color: cornflowerblue; margin-top: 10px;"> همه مجموعه ها را ببینیم </a>
+          </div>
+
+          <div class="col-lg-3  d-flex justify-content-center align-items-lg-start align-items-sm-center flex-column">
+            <img src="img/gal3.jpg" class="my-2" alt="">
+            <h6>طبیعت</h6>
+            <span style="color: gray;" > زیبایی های جهان هستی</span>
+            <a href="" style="color: cornflowerblue;  margin-top: 10px;"> همه مجموعه ها را ببینیم </a>
+          </div>
+
+          <div class="col-lg-3  d-flex justify-content-center align-items-lg-start align-items-sm-center flex-column">
+            <img src="img/gal4.jpg" class="my-2" alt="">
+            <h6> نقاشی های خط </h6>
+            <span style="color: gray;" > نستعلیق وخوش نویسی</span>
+            <a href="" style="color: cornflowerblue;  margin-top: 10px;"> همه مجموعه ها را ببینیم </a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+       <!-- galary haye tablo -->
+
+      <div class="container bg-light d-flex justify-content-sm-center      justify-content-lg-start    my-2 " style="height: 50px;">
+       
+        <h4>   گالری های تابلو</h4>
+      
+      </div>
+
+
+       <!-- galary haye tablo card ha -->
+        
+       
+
+      <div class="container bg-light">
+        <div class="row">
+          <div class="col-lg-5 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/tab2.jpg"  alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>طبیعت</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-7 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/tab1.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>طبیعت بی جان</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/tab3.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>گل</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/tab4.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>مفهومی</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/tab5.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>انسان</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+      <!-- galary haye tablo sabk -->
+
+      <div class="container bg-light d-flex justify-content-sm-center      justify-content-lg-start    my-2 " style="height: 50px;">
+       
+        <h4>   گالری های تابلو با سبک</h4>
+      
+      </div>
+
+
+
+
+       <!-- galary haye tablo card ha -->
+        
+       
+
+       <div class="container bg-light">
+        <div class="row">
+          <div class="col-lg-7 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/sabk1.jpg" width="100%"  alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>طبیعت</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/sabk2.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>طبیعت بی جان</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/sabk3.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>گل</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/sabk4.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>مفهومی</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 my-2 d-flex justify-content-center" style="position: relative;">
+            <img src="img/sabk5.jpg" width="100%" alt="">
+            <div class="d-flex  align-items-center flex-column justify-content-between" style="position: absolute; top: 40%; color: white;">
+              <h3>انسان</h3>
+              <button class="btn btn-outline-light"> مشاهده </button>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+      <!-- inja footer hast lg -->
+
+      <footer>
+        <div class="d-none d-lg-block">
+        <div class="footer d-flex justify-content-center flex-column align-items-center ">
+          <div class="sotioal  " style="width: 35%; height: 50px;">
+          <ul class="list-unstyled d-flex justify-content-around  my-1" style="color: rgb(88, 88, 88);">
+            <li>021-12345678</li>
+            <li>hi@salam.com</li>
+            <li><a href=""><i class="bi bi-instagram"></i></a></li>
+            <li><a href=""><i class="bi bi-telegram"></i></a></li>
+            <li><a href=""><i class="bi bi-twitter"></i></a></li>
+          </ul>
+          </div>
+          <div class="main bg-white d-flex justify-content-center flex-column align-items-center " style="width: 75%; height: 75%;">
+            <div class="up  d-flex justify-content-around w-100" style="height: 60%;">
+              <div class="d-flex justify-content-center" style="width: 33%;">
+                <div class="w-50">
+                <ul class="my-2 list-unstyled d-flex justify-content-center flex-column">
+                  <li>
+                    <img src="img/logo.png" width="50%" alt="">
+                    <hr style="width: 70px;">
+                  </li>
+                  
+                  <li><a href="">درباره ما</a></li>
+                  <li><a href="">تماس باما</a></li>
+                  <li><a href="">قوانین</a></li>
+                  <li><a href="">شکایات</a></li>
+                </ul>
+                </div>
+
+                <div class="w-50">
+                  <ul class="my-2 list-unstyled d-flex justify-content-center flex-column">
+                    <li>
+                      <h5>دسته بندی اثر</h5>
+                      <hr style="width: 70px;">
+                    </li>
+                    
+                    <li><a href="">درباره ما</a></li>
+                    <li><a href="">تماس باما</a></li>
+                    <li><a href="">قوانین</a></li>
+                    <li><a href="">شکایات</a></li>
+                  </ul>
+                  </div>
+
+              </div>
+
+              <!-- vasat -->
+
+              <div class="d-flex justify-content-center align-items-center" style="width: 33%;" >
+                <input type="text" style="height: 30px;" placeholder=" ادرس ایمیل">
+                <button class="btn btn-secondary" style="height: 30px;">اشتراک</button>
+              
+              </div>
+
+
+               <!-- chap -->
+
+              <div class="d-flex justify-content-center" style="width: 33%;" >
+                <img src="img/saman.png" width="50%" alt="">
+              </div>
+
+            </div>
+          
+          
+            <!-- payiin -->
+            <div class="d-flex justify-content-center" style="width: 33%; height: 30%;">
+              <img src="img/axe.svg" width="20%" alt="">
+              <img src="img/nn.svg" width="35%" alt="">
+            </div>
+
+
+
+           
+            
+
+
+
+          </div>
+        </div>
+        </div>
+      </footer>
+
+
+      <!-- footer mobaile -->
+
+      
+        <div class=" d-none d-lg-none d-sm-block">
+          <div class="footer d-flex justify-content-center flex-column align-items-center ">
+            <div class="sotioal  " style="width: 100%; height: 50px;">
+              <ul class="list-unstyled d-flex justify-content-evenly   my-1" style="color: rgb(88, 88, 88);">
+               <li>021-12345678</li>
+                <li>hi@salam.com</li>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-telegram"></i></a></li>
+                <li><a href=""><i class="bi bi-twitter"></i></a></li>
+             </ul>
+            </div>
+
+            <div class="main bg-white" style="width: 80%;height:80% ;">
+             <div class="up d-flex justify-content-around">
+                <div class="w-50">
+                  <ul class="my-2 list-unstyled d-flex justify-content-center flex-column">
+                   <li>
+                    <img src="img/logo.png" width="50%" alt="">
+                    <hr style="width: 70px;">
+                   </li>
+                  
+                    <li><a href="">درباره ما</a></li>
+                    <li><a href="">تماس باما</a></li>
+                    <li><a href="">قوانین</a></li>
+                    <li><a href="">شکایات</a></li>
+                  </ul>
+                </div>
+
+                  <div class="w-50">
+                    <ul class="my-2 list-unstyled d-flex justify-content-center flex-column">
+                     <li>
+                        <h5>دسته بندی اثر</h5>
+                       <hr style="width: 70px;">
+                      </li>
+                    
+                      <li><a href="">درباره ما</a></li>
+                     <li><a href="">تماس باما</a></li>
+                     <li><a href="">قوانین</a></li>
+                     <li><a href="">شکایات</a></li>
+                   </ul>
+                  </div>
+              </div>
+
+
+              <!-- eshterak -->
+                <div class="d-flex justify-content-center align-items-center" style="width: 100%;" >
+                  <input type="text" style="height: 30px;" placeholder=" ادرس ایمیل">
+                  <button class="btn btn-secondary" style="height: 30px;">اشتراک</button>
+                
+                </div>
+
+
+                <!-- logo -->
+
+                <div class="d-flex justify-content-center" style="width:100%;" >
+                  <img src="img/saman.png" width="35%" alt="">
+                </div>
+
+
+                <!-- axa sherkat -->
+
+                <div class="d-flex justify-content-center" style="width: 100%;">
+                  <img src="img/axe.svg" width="20%" alt="">
+                  <img src="img/nn.svg" width="35%" alt="">
+                </div>
+
+
+  
+              
+
+
+
+            </div>
+
+
+           
+
+            
+
+
+
+
+
+
+          </div>
+
+        </div>
+      
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
